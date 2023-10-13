@@ -2,5 +2,11 @@
 	"hosting": {
 		"public": "src",
 		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-	}
+	},
+	"rewrites": [
+		{
+			"source": "**",
+			"destination": "/client/vite-project/src/main.jsx"
+		}
+	]
 }
