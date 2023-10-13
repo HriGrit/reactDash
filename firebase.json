@@ -5,7 +5,7 @@
 	},
 	"rewrites": [
 		{
-			"source": "**",
+			"source": "index.html",
 			"destination": "/client/vite-project/src/main.jsx"
 		}
 	]
